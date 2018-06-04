@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://jungle-socks.herokuapp.com/"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Socks.ConfirmationPage">
+        <methods>
+          <include name="VerifyIfCorrectTotals"/>
+          <include name="terminateDriver"/>
+        </methods>
+      </class> <!-- Socks.ConfirmationPage -->
+      <class name="Socks.ProductCatalogPage">
+        <methods>
+          <include name="CheckOutClick"/>
+          <include name="DataEntry"/>
+          <include name="Initialization"/>
+        </methods>
+      </class> <!-- Socks.ProductCatalogPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

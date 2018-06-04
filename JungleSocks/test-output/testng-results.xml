@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-03T23:45:19Z" name="Suite" finished-at="2018-06-03T23:45:56Z" duration-ms="36576">
+    <groups>
+    </groups>
+    <test started-at="2018-06-03T23:45:19Z" name="Test" finished-at="2018-06-03T23:45:56Z" duration-ms="36576">
+      <class name="Socks.ConfirmationPage">
+        <test-method signature="VerifyIfCorrectTotals()[pri:0, instance:Socks.ConfirmationPage@6f45df59]" started-at="2018-06-03T23:45:56Z" name="VerifyIfCorrectTotals" finished-at="2018-06-03T23:45:56Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfCorrectTotals -->
+        <test-method is-config="true" signature="terminateDriver()[pri:0, instance:Socks.ConfirmationPage@6f45df59]" started-at="2018-06-03T23:45:56Z" name="terminateDriver" finished-at="2018-06-03T23:45:56Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+      </class> <!-- Socks.ConfirmationPage -->
+      <class name="Socks.ProductCatalogPage">
+        <test-method is-config="true" signature="Initialization()[pri:0, instance:Socks.ProductCatalogPage@4c309d4d]" started-at="2018-06-03T23:45:19Z" name="Initialization" finished-at="2018-06-03T23:45:34Z" duration-ms="14964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialization -->
+        <test-method signature="DataEntry()[pri:0, instance:Socks.ProductCatalogPage@4c309d4d]" started-at="2018-06-03T23:45:34Z" name="DataEntry" finished-at="2018-06-03T23:45:35Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataEntry -->
+        <test-method signature="CheckOutClick()[pri:0, instance:Socks.ProductCatalogPage@4c309d4d]" started-at="2018-06-03T23:45:35Z" name="CheckOutClick" finished-at="2018-06-03T23:45:56Z" depends-on-methods="Socks.ProductCatalogPage.DataEntry" duration-ms="21131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutClick -->
+      </class> <!-- Socks.ProductCatalogPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
